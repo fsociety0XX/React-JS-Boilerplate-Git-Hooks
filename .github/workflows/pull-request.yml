@@ -22,7 +22,7 @@ jobs:
             - name: npm ci
               run: npm ci
             - name: format
-              run: npm run prettier
+              run: npm run format
             - name: lint
               run: npm run lint
             - name: build
