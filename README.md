@@ -13,7 +13,7 @@
 
 The default commitlint convention uses the [Conventional Commits Convention](https://www.conventionalcommits.org/en/v1.0.0/) where there is a type, optionally a scope, a subject, and optionally a body and footer.
 
-For example I can fix a bug related to UI and then the commit message can be `fix(ui): Button was not showing up properly on mobile view`. Here the type is fix, that is, a fix for a bug, the scope is ui as the fix was related to the ui, and the subject provides more context about the issue.
+For example I can fix a bug related to UI and then the commit message can be `fix(ui): button was not showing up properly on mobile view`. Here the type is fix, that is, a fix for a bug, the scope is ui as the fix was related to the ui, and the subject provides more context about the issue.
 
 Note that I can supply multiple scopes, for example, `feat(ui,lang): added an option to save the image as svg and added language support for Spanish`. Here we introduce 2 features – a new button to save an image as svg and language support for Spanish. This means that there are 2 scopes. The scopes can be separated by the 3 delimiters - ,, / and \.
 These are all the possible scopes you can use in the project: `['optimise','build','chore','ci','docs','feat','fix','perf','refactor','revert','style','test','configuration']`
