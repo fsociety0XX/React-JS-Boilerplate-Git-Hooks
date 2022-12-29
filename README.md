@@ -1,5 +1,7 @@
 ## This boilerplate consists of pre-commit hooks and CI/CD pipeline checks on each pull request to maintain a uniform coding pattern/formatting across the application by every individual. You need to follow below steps so that all these automated pipeline runs smoothly and you don’t face any problem in running the project.
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ccafcd7ca7484f8c8d8ffb1b0fee846e)](https://app.codacy.com/gh/kushagra-aglowid/boilerplate?utm_source=github.com&utm_medium=referral&utm_content=kushagra-aglowid/boilerplate&utm_campaign=Badge_Grade_Settings)
+
 ### STEPS TO BE FOLLOWED
 
 1. After taking clone, you need to run command `npm install`
