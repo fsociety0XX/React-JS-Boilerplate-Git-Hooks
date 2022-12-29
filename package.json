@@ -19,8 +19,8 @@
     "lint": "eslint ./",
     "lint-fix": "eslint ./ --fix",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "husky-install": "husky install",
-    "lint-staged": "lint-staged --config lint-staged.js"
+    "lint-staged": "lint-staged --config lint-staged.js",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
