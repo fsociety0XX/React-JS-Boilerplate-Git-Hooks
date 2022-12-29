@@ -1,6 +1,7 @@
-## This boilerplate consists of pre-commit hooks and CI/CD pipeline checks on each pull request to maintain a uniform coding pattern/formatting across the application by every individual. You need to follow below steps so that all these automated pipeline runs smoothly and you don’t face any problem in running the project.
+***[![Codacy Badge](https://app.codacy.com/project/badge/Grade/1ca453eccceb4692bddc084c47697c60)](https://www.codacy.com/gh/kushagra-aglowid/boilerplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kushagra-aglowid/boilerplate&amp;utm_campaign=Badge_Grade)***
+### *This boilerplate consists of pre-commit hooks and CI/CD pipeline checks on each pull request to maintain a uniform coding pattern/formatting across the application by every individual. You need to follow below steps so that all these automated pipeline runs smoothly and you don’t face any problem in running the project.*
 
-### STEPS TO BE FOLLOWED
+##### STEPS TO BE FOLLOWED
 
 1. After taking clone, you need to run command `npm install`
 2. Now delete the ".husky" folder.
@@ -9,7 +10,7 @@
 5. Start your project with `npm start`
 6. Don't try to mess with any pre-commit files or eslint rules in your local. Also don't try to bypass these setting else your code will not pass the pipeline checks in pull request.
 
-### This repository also contains Commit Lint i.e your commit will fail if your commit message is not as per standard commit rules. So please go through below points for following proper standards.
+##### This repository also contains Commit Lint i.e your commit will fail if your commit message is not as per standard commit rules. So please go through below points for following proper standards.
 
 The default commitlint convention uses the [Conventional Commits Convention](https://www.conventionalcommits.org/en/v1.0.0/) where there is a type, optionally a scope, a subject, and optionally a body and footer.
 
